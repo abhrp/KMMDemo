@@ -79,3 +79,9 @@ android {
         targetSdkVersion(30)
     }
 }
+
+sqldelight {
+    database("AppDatabase") {
+        packageName = "com.abhrp.kmmdemo.cache"
+    }
+}
